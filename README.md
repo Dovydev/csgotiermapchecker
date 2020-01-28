@@ -1,7 +1,7 @@
 # CS:GO Tier Map Checker
 ## Usage
 - Paste maps from **CSGO poll** to maps.txt
-- Remove everything from comppleted.txt
+- Remove everything from completed.txt
 - Run the **start.py** and just wait
 - Get you queried maps in completed.txt
 ## Needed
