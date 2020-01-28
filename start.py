@@ -5,8 +5,9 @@ import random
 import time
 import re
 
+# Choose the needed one!
 # def clear(): return os.system('cls')  # on Windows System
-clear = lambda: os.system('clear') #on Linux System
+clear = lambda: os.system('clear') # on Linux System
 
 count = 0
 onebar = "|"
@@ -41,9 +42,7 @@ for i in content:
 
     if error == "Unable to find map..":
         simple = "Tier: %s | Type: %s | Map: %s\n" % ("N/A", "UNKNOWN", str(maps))
-        #simple = "Line: " + str(count) + " | " + error + " | Map: " + maps
     else:
-        f = open("completed.txt", "a+")
         tier = mydivs2[2].getText()
         mode = mydivs2[3].getText()
         if mode == "Staged":
@@ -53,12 +52,12 @@ for i in content:
             modetext = "Checkpoints"
             modewrite = mydivs2[5].getText()
         simple = "Tier: %s | Type: %s | %s: %s | Map: %s\n" % (tier, mode, modetext ,modewrite, str(maps))
-        #simple = "Line: " + str(count) + " | " + "Surf tier map..     " + " | Map: " + maps + "| Tier: " + tier + " | " + "Type: " + mode + "\n"
-        f.write(simple)
-        f.close()
 
+    f = open("completed.txt", "a+")
     clear()
+    f.write(simple)
+    f.close()
     print("Loading.. \nCurrent line: " + str(count) +"\n" + bar)
     
 
-print(str(count) + " maps checked with surfheavens database.\nProject made by Dovydev ( github.com/dovydev )") 
+print(str(count) + " maps checked with surfheavens database.\nProject made by Dovydev [github.com/dovydev]") 
