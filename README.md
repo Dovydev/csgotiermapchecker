@@ -14,4 +14,4 @@
 - [ ] Optimize
 - [ ] Make code cleaner
 - [ ] Use several API/WEBS
-###### Made for Rampage.LT by Dovydev | Thanks for Surfheaven.eu approval
+###### Made for [Rampage.LT](https://rampage.lt/) by Dovydev | Thanks for [Surfheaven.eu](https://surfheaven.eu/) approval
