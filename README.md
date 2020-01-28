@@ -8,4 +8,10 @@
 - **Python** is needed [Download](https://www.python.org/downloads/) | For linux (sudo apt-get install python)
 - **Beautifulsoup** (pip install beautifulsoup4)
 - **Requests** (pip install requests)
+## TODO
+- [x] Delay requests because scraping = autoblock ip
+- [ ] Auto empty the completed.txt
+- [ ] Optimize
+- [ ] Make code cleaner
+- [ ] Use several API/WEBS
 ###### Made for Rampage.LT by Dovydev
