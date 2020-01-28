@@ -6,8 +6,8 @@
 - Get you queried maps in completed.txt
 ## Needed
 - **Python** is needed [Download](https://www.python.org/downloads/) | For linux (sudo apt-get install python)
-- **Beautifulsoup** in console/terminal (pip install beautifulsoup4)
-- **Requests** in console/terminal (pip install requests)
+- **Beautifulsoup** (pip install beautifulsoup4)
+- **Requests** (pip install requests)
 ## TODO
 - [x] Delay requests because scraping = autoblock ip
 - [ ] Auto empty the completed.txt
